@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lista.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <div class="container">
+            
+          <h2>Lista de Tareas</h2>
+          <h3>Agregar tareas</h3>
+          <p>
+            <input id="new-task" type="text"><button>Agregar</button>
+          </p>
+      
+          <h3>Tareas</h3>
+          <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Comprar BTC</label><input type="text"><button class="editar">Editar</button><button class="borrar">Borrar</button></li>
+            <li><input type="checkbox"><label>Leer 30 paginas de un libro</label><input type="text" value="Go Shopping"><button class="editar">Editar</button><button class="borrar">Borrar</button></li>
+          </ul>
+      
+          <h3>Completado</h3>
+          <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Ir al gimnasio</label><input type="text"><button class="editar">Editar</button><button class="borrar">Borrar</button></li>
+          </ul>
+        </div>
+
+        <script src="lista.js"></script>
+      
+</body>
+</html>
